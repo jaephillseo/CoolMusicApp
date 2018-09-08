@@ -1,0 +1,6 @@
+framework module Pods_CoolMusicApp {
+  umbrella header "Pods-CoolMusicApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

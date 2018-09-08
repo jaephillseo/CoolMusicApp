@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744952BA41DDE009F2EB004A /* Pods_CoolMusicAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF16CD933D46BC2FBDD16E1 /* Pods_CoolMusicAppUITests.framework */; };
+		81E802EB4818560FE84192B0 /* Pods_CoolMusicAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFABFE279090BBCC3BE6C4A1 /* Pods_CoolMusicAppTests.framework */; };
+		836D8E101FA05E9100C4A416 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D8E0F1FA05E9100C4A416 /* LoginController.swift */; };
+		838CDFAB1F99C6CD0022A5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CDFAA1F99C6CD0022A5D5 /* AppDelegate.swift */; };
+		838CDFAD1F99C6CD0022A5D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CDFAC1F99C6CD0022A5D5 /* ViewController.swift */; };
+		838CDFB01F99C6CD0022A5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838CDFAE1F99C6CD0022A5D5 /* Main.storyboard */; };
+		838CDFB21F99C6CD0022A5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838CDFB11F99C6CD0022A5D5 /* Assets.xcassets */; };
+		838CDFB51F99C6CD0022A5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838CDFB31F99C6CD0022A5D5 /* LaunchScreen.storyboard */; };
+		838CDFC01F99C6CD0022A5D5 /* CoolMusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CDFBF1F99C6CD0022A5D5 /* CoolMusicAppTests.swift */; };
+		838CDFCB1F99C6CD0022A5D5 /* CoolMusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CDFCA1F99C6CD0022A5D5 /* CoolMusicAppUITests.swift */; };
+		83A88AAA1F9F28A2001B3EFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83A88AA91F9F28A2001B3EFC /* GoogleService-Info.plist */; };
+		CB7CFE83B222B20D5A890FEF /* Pods_CoolMusicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E737EA1208FE26C3DBD9D6 /* Pods_CoolMusicApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838CDFBC1F99C6CD0022A5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838CDF9F1F99C6CD0022A5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838CDFA61F99C6CD0022A5D5;
+			remoteInfo = CoolMusicApp;
+		};
+		838CDFC71F99C6CD0022A5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838CDF9F1F99C6CD0022A5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838CDFA61F99C6CD0022A5D5;
+			remoteInfo = CoolMusicApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346A871DEA62BD9FB1DEA4FF /* Pods-CoolMusicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp.release.xcconfig"; sourceTree = "<group>"; };
+		836D8E0F1FA05E9100C4A416 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		838CDFA71F99C6CD0022A5D5 /* CoolMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838CDFAA1F99C6CD0022A5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		838CDFAC1F99C6CD0022A5D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		838CDFAF1F99C6CD0022A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838CDFB11F99C6CD0022A5D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838CDFB41F99C6CD0022A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838CDFB61F99C6CD0022A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838CDFBB1F99C6CD0022A5D5 /* CoolMusicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolMusicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838CDFBF1F99C6CD0022A5D5 /* CoolMusicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolMusicAppTests.swift; sourceTree = "<group>"; };
+		838CDFC11F99C6CD0022A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838CDFC61F99C6CD0022A5D5 /* CoolMusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolMusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838CDFCA1F99C6CD0022A5D5 /* CoolMusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolMusicAppUITests.swift; sourceTree = "<group>"; };
+		838CDFCC1F99C6CD0022A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838CDFD81F99FE3A0022A5D5 /* CoolMusicApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolMusicApp.entitlements; sourceTree = "<group>"; };
+		83A88AA91F9F28A2001B3EFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87B0D572D3AF7D0D11301556 /* Pods-CoolMusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E737EA1208FE26C3DBD9D6 /* Pods_CoolMusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolMusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A918501B49D8B00EEE65BC /* Pods-CoolMusicAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicAppUITests/Pods-CoolMusicAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF16CD933D46BC2FBDD16E1 /* Pods_CoolMusicAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolMusicAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFABFE279090BBCC3BE6C4A1 /* Pods_CoolMusicAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolMusicAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B68D4CD58C400AEFFD5780 /* Pods-CoolMusicAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicAppUITests/Pods-CoolMusicAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC42244FC6657F29F605E27 /* Pods-CoolMusicAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicAppTests/Pods-CoolMusicAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3048FB000356ED5744AF73 /* Pods-CoolMusicAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolMusicAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolMusicAppTests/Pods-CoolMusicAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838CDFA41F99C6CD0022A5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7CFE83B222B20D5A890FEF /* Pods_CoolMusicApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFB81F99C6CD0022A5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E802EB4818560FE84192B0 /* Pods_CoolMusicAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFC31F99C6CD0022A5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744952BA41DDE009F2EB004A /* Pods_CoolMusicAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A32491D54EC8C84E52284C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B0D572D3AF7D0D11301556 /* Pods-CoolMusicApp.debug.xcconfig */,
+				346A871DEA62BD9FB1DEA4FF /* Pods-CoolMusicApp.release.xcconfig */,
+				FAC42244FC6657F29F605E27 /* Pods-CoolMusicAppTests.debug.xcconfig */,
+				FC3048FB000356ED5744AF73 /* Pods-CoolMusicAppTests.release.xcconfig */,
+				C0A918501B49D8B00EEE65BC /* Pods-CoolMusicAppUITests.debug.xcconfig */,
+				F8B68D4CD58C400AEFFD5780 /* Pods-CoolMusicAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D30DE5B290FB854FBE97299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E737EA1208FE26C3DBD9D6 /* Pods_CoolMusicApp.framework */,
+				EFABFE279090BBCC3BE6C4A1 /* Pods_CoolMusicAppTests.framework */,
+				CBF16CD933D46BC2FBDD16E1 /* Pods_CoolMusicAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		836D8E0E1FA05E5200C4A416 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				838CDFAC1F99C6CD0022A5D5 /* ViewController.swift */,
+				836D8E0F1FA05E9100C4A416 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		838CDF9E1F99C6CD0022A5D5 = {
+			isa = PBXGroup;
+			children = (
+				83A88AA91F9F28A2001B3EFC /* GoogleService-Info.plist */,
+				838CDFA91F99C6CD0022A5D5 /* CoolMusicApp */,
+				838CDFBE1F99C6CD0022A5D5 /* CoolMusicAppTests */,
+				838CDFC91F99C6CD0022A5D5 /* CoolMusicAppUITests */,
+				838CDFA81F99C6CD0022A5D5 /* Products */,
+				6A32491D54EC8C84E52284C6 /* Pods */,
+				6D30DE5B290FB854FBE97299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		838CDFA81F99C6CD0022A5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838CDFA71F99C6CD0022A5D5 /* CoolMusicApp.app */,
+				838CDFBB1F99C6CD0022A5D5 /* CoolMusicAppTests.xctest */,
+				838CDFC61F99C6CD0022A5D5 /* CoolMusicAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838CDFA91F99C6CD0022A5D5 /* CoolMusicApp */ = {
+			isa = PBXGroup;
+			children = (
+				836D8E0E1FA05E5200C4A416 /* Controller */,
+				838CDFD81F99FE3A0022A5D5 /* CoolMusicApp.entitlements */,
+				838CDFAA1F99C6CD0022A5D5 /* AppDelegate.swift */,
+				838CDFAE1F99C6CD0022A5D5 /* Main.storyboard */,
+				838CDFB11F99C6CD0022A5D5 /* Assets.xcassets */,
+				838CDFB31F99C6CD0022A5D5 /* LaunchScreen.storyboard */,
+				838CDFB61F99C6CD0022A5D5 /* Info.plist */,
+			);
+			path = CoolMusicApp;
+			sourceTree = "<group>";
+		};
+		838CDFBE1F99C6CD0022A5D5 /* CoolMusicAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				838CDFBF1F99C6CD0022A5D5 /* CoolMusicAppTests.swift */,
+				838CDFC11F99C6CD0022A5D5 /* Info.plist */,
+			);
+			path = CoolMusicAppTests;
+			sourceTree = "<group>";
+		};
+		838CDFC91F99C6CD0022A5D5 /* CoolMusicAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838CDFCA1F99C6CD0022A5D5 /* CoolMusicAppUITests.swift */,
+				838CDFCC1F99C6CD0022A5D5 /* Info.plist */,
+			);
+			path = CoolMusicAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838CDFA61F99C6CD0022A5D5 /* CoolMusicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838CDFCF1F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicApp" */;
+			buildPhases = (
+				97DBBAAA1C3475357CD95999 /* [CP] Check Pods Manifest.lock */,
+				838CDFA31F99C6CD0022A5D5 /* Sources */,
+				838CDFA41F99C6CD0022A5D5 /* Frameworks */,
+				838CDFA51F99C6CD0022A5D5 /* Resources */,
+				D476B97AF61540344C842660 /* [CP] Embed Pods Frameworks */,
+				692EAACC9CF0833CD1382400 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolMusicApp;
+			productName = CoolMusicApp;
+			productReference = 838CDFA71F99C6CD0022A5D5 /* CoolMusicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838CDFBA1F99C6CD0022A5D5 /* CoolMusicAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838CDFD21F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicAppTests" */;
+			buildPhases = (
+				346A2C0255B07C95CBBFECFB /* [CP] Check Pods Manifest.lock */,
+				838CDFB71F99C6CD0022A5D5 /* Sources */,
+				838CDFB81F99C6CD0022A5D5 /* Frameworks */,
+				838CDFB91F99C6CD0022A5D5 /* Resources */,
+				1EE904D0CC4EE5BBFE34E7AE /* [CP] Embed Pods Frameworks */,
+				7EA87DCBAF011114114031FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838CDFBD1F99C6CD0022A5D5 /* PBXTargetDependency */,
+			);
+			name = CoolMusicAppTests;
+			productName = CoolMusicAppTests;
+			productReference = 838CDFBB1F99C6CD0022A5D5 /* CoolMusicAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838CDFC51F99C6CD0022A5D5 /* CoolMusicAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838CDFD51F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicAppUITests" */;
+			buildPhases = (
+				A18B484F587A17DD7E01B089 /* [CP] Check Pods Manifest.lock */,
+				838CDFC21F99C6CD0022A5D5 /* Sources */,
+				838CDFC31F99C6CD0022A5D5 /* Frameworks */,
+				838CDFC41F99C6CD0022A5D5 /* Resources */,
+				4C5EF2085322AEDBB0584D71 /* [CP] Embed Pods Frameworks */,
+				ABEB75B789603D0390211F2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838CDFC81F99C6CD0022A5D5 /* PBXTargetDependency */,
+			);
+			name = CoolMusicAppUITests;
+			productName = CoolMusicAppUITests;
+			productReference = 838CDFC61F99C6CD0022A5D5 /* CoolMusicAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838CDF9F1F99C6CD0022A5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AlexKong;
+				TargetAttributes = {
+					838CDFA61F99C6CD0022A5D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					838CDFBA1F99C6CD0022A5D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838CDFA61F99C6CD0022A5D5;
+					};
+					838CDFC51F99C6CD0022A5D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838CDFA61F99C6CD0022A5D5;
+					};
+				};
+			};
+			buildConfigurationList = 838CDFA21F99C6CD0022A5D5 /* Build configuration list for PBXProject "CoolMusicApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838CDF9E1F99C6CD0022A5D5;
+			productRefGroup = 838CDFA81F99C6CD0022A5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838CDFA61F99C6CD0022A5D5 /* CoolMusicApp */,
+				838CDFBA1F99C6CD0022A5D5 /* CoolMusicAppTests */,
+				838CDFC51F99C6CD0022A5D5 /* CoolMusicAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838CDFA51F99C6CD0022A5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CDFB51F99C6CD0022A5D5 /* LaunchScreen.storyboard in Resources */,
+				83A88AAA1F9F28A2001B3EFC /* GoogleService-Info.plist in Resources */,
+				838CDFB21F99C6CD0022A5D5 /* Assets.xcassets in Resources */,
+				838CDFB01F99C6CD0022A5D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFB91F99C6CD0022A5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFC41F99C6CD0022A5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE904D0CC4EE5BBFE34E7AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicAppTests/Pods-CoolMusicAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		346A2C0255B07C95CBBFECFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolMusicAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5EF2085322AEDBB0584D71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicAppUITests/Pods-CoolMusicAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692EAACC9CF0833CD1382400 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA87DCBAF011114114031FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicAppTests/Pods-CoolMusicAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DBBAAA1C3475357CD95999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolMusicApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18B484F587A17DD7E01B089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolMusicAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEB75B789603D0390211F2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicAppUITests/Pods-CoolMusicAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D476B97AF61540344C842660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolMusicApp/Pods-CoolMusicApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838CDFA31F99C6CD0022A5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CDFAD1F99C6CD0022A5D5 /* ViewController.swift in Sources */,
+				836D8E101FA05E9100C4A416 /* LoginController.swift in Sources */,
+				838CDFAB1F99C6CD0022A5D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFB71F99C6CD0022A5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CDFC01F99C6CD0022A5D5 /* CoolMusicAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838CDFC21F99C6CD0022A5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CDFCB1F99C6CD0022A5D5 /* CoolMusicAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838CDFBD1F99C6CD0022A5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838CDFA61F99C6CD0022A5D5 /* CoolMusicApp */;
+			targetProxy = 838CDFBC1F99C6CD0022A5D5 /* PBXContainerItemProxy */;
+		};
+		838CDFC81F99C6CD0022A5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838CDFA61F99C6CD0022A5D5 /* CoolMusicApp */;
+			targetProxy = 838CDFC71F99C6CD0022A5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838CDFAE1F99C6CD0022A5D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838CDFAF1F99C6CD0022A5D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838CDFB31F99C6CD0022A5D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838CDFB41F99C6CD0022A5D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838CDFCD1F99C6CD0022A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		838CDFCE1F99C6CD0022A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838CDFD01F99C6CD0022A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B0D572D3AF7D0D11301556 /* Pods-CoolMusicApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolMusicApp/CoolMusicApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		838CDFD11F99C6CD0022A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346A871DEA62BD9FB1DEA4FF /* Pods-CoolMusicApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolMusicApp/CoolMusicApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		838CDFD31F99C6CD0022A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC42244FC6657F29F605E27 /* Pods-CoolMusicAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolMusicApp.app/CoolMusicApp";
+			};
+			name = Debug;
+		};
+		838CDFD41F99C6CD0022A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3048FB000356ED5744AF73 /* Pods-CoolMusicAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolMusicApp.app/CoolMusicApp";
+			};
+			name = Release;
+		};
+		838CDFD61F99C6CD0022A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A918501B49D8B00EEE65BC /* Pods-CoolMusicAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolMusicApp;
+			};
+			name = Debug;
+		};
+		838CDFD71F99C6CD0022A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B68D4CD58C400AEFFD5780 /* Pods-CoolMusicAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CoolMusicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CMA.CoolMusicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolMusicApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838CDFA21F99C6CD0022A5D5 /* Build configuration list for PBXProject "CoolMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CDFCD1F99C6CD0022A5D5 /* Debug */,
+				838CDFCE1F99C6CD0022A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838CDFCF1F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CDFD01F99C6CD0022A5D5 /* Debug */,
+				838CDFD11F99C6CD0022A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838CDFD21F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CDFD31F99C6CD0022A5D5 /* Debug */,
+				838CDFD41F99C6CD0022A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838CDFD51F99C6CD0022A5D5 /* Build configuration list for PBXNativeTarget "CoolMusicAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CDFD61F99C6CD0022A5D5 /* Debug */,
+				838CDFD71F99C6CD0022A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838CDF9F1F99C6CD0022A5D5 /* Project object */;
+}
